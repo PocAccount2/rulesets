@@ -1,9 +1,11 @@
-import os,sys
+def my_func(x, y):
+    """Compare two numbers and print their sum and which is larger."""
+    print(x + y)
 
-def  myFunc( x,y ):
- print( x+y )
- if x>y:print("x is bigger")
- else:
-  print("y is bigger")  
+    if x > y:
+        print("x is bigger")
+    else:
+        print("y is bigger")
 
-myFunc(1,2)
+
+my_func(1, 2)
